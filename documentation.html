@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="background.css">
+	<!-- https://codepen.io/P1N2O/pen/pyBNzX source for bg CSS -->
+</head>
+<style>
+a:link {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+</style
+<body>
+
+	<div class="sidenav">
+		<a href="index.html">Back</a>
+	</div>
+
+	<div class="main">
+	
+	<h1 style="color:white">Project Documentation</h1>
+	
+	<h2 style="color:white">Project Background</h2>
+	<p style ="color:white">Rock climbing is an increasingly popular sport, especially with its introduction in the 2020 Olympics. While current<br>
+		tools exist to explore rock climbing routes and areas, it can often be difficult to get a 'big picture' view of a crag or larger area while<br>
+		still viewing information about individual routes. Finding locations to climb can be a daunting task for any climber, especially if they <br>
+		are new to the sport. This project utilizes Tableau to create an interactive dashboard using data from Mountain Project.<br>
+	</p>
+	
+	
+	<h2 style="color:white">Design Process</h2>
+	<p style="color:white">The visualization process was an interative project that was completed in steps. Tasks included deciding what was important information for a <br>
+		rock climber to know about routes/crags, how the actual Tableau dashboard should look, and determining the best way to display the information in a way that is both<br>
+		simple and appealing to users.
+	</p>
+
+	
+	<h3 style = "color:white">Initial Designs</h3>
+		<h4 style ="color:white">Design 1</h4>
+		<img src="tab2.PNG" alt="design 1" width="450" height="500" style="border:5px solid white">
+		<p style = "color:white">The initial dashboard featured a map of the routes plus information that was determined to be important to a viewer. This information included<br>
+		the route name, location/length(ft), and difficulty ratings. Initial design iterations focused on finding what information is critical to the viewer.</p>
+
+		<h4 style="color:white">Design 2</h4>
+		<img src="tab1.PNG" alt="design 2" width="450" height="450" style="border:5px solid white">
+		<p style = "color:white">The second design features the map of the routes within a circular bar chart of route heights. When hovering over each bar, route information<br>
+		such as length(ft)/location/name is visible in a tooltip. A functionality to filter the routes by area was included. This design included the groundwork for the final<br>
+		design. We created this design with the goal of making a dashboard that is appealing and easy to use.</p>
+		
+		<h3 style = "color:white">Final Design</h3>
+		<p style = "color:white">The final design is the design on the main page of the website. This still features the map and radial bar chart, but includes many other <br>
+		visualizations of features of the rock climbing routes. The filters are on the top of the visualization to make it easy for the user to find, and the other items are displayed<br>
+		around the graph. A feature with stars was added to show the top rated routes based on the filters the user applies to the visualization. The colors were also adjusted to <br>
+		reflect the colors of the Colorado state flag. Tooltips show additional route information after hovering over the radial graph, and clicking on 'More Info' on a route<br>
+		name will take the user to the Mountain Project webpage for the route, which shows real pictures and information on how to reach the route. Future<br>
+		changes could include adding more routes from other states and adding filters by state, or maybe even country.</p>
+		
+		<h3 style="color:white">Design Choices</h3>
+		<p style = "color:white">
+			<ul>
+				<li style="color:white">The radial graph and map are the focus of the visualization. This was placed at the top left of the image since English-readers<br>
+				read left to right.</li>
+				<li style="color:white">The radial bar graph was chosen as a fun, unique way to demonstrate route lengths (ft). This was placed around the map of Colorado<br>
+				to draw attention to the map. The unique feature creates the focal point of the visualizationn.</li>
+				<li style="color:white">Filters were placed above the map to make them easy to locate.</li>
+				<li style="color:white">The green background color was chosen to match the map and to create a rustic outdoors feel.</li>
+				<li style="color:white">The colors of the radial graph, other charts, and borders were the colors of the Colorado flag. These bright primary colors<br>
+				pop against the background color of the dashboard.</li>
+				<li style="color:white">Borders were placed appropriately to highlight the visualization and separate the filters from the charts.</li>
+			</ul>
+		</p>
+		
+		
+	<br>
+	<h2 style="color:white">Colorblindness Accessibility Testing</h2>
+		<p style = "color:white">Colorblindness testing was conducted for accessibility purposes. I used a web-based filter by <a href="https://www.toptal.com/designers/colorfilter/" style="color:chartreuse">Toptal</a> that allows a user to type a URL and filter<br>
+	with a color filter to test for accessibility. Colorblindess does not affect the functionality of the map - the locations of the rock climbing routes still stand out <br>
+	against the map background, and the rest of the visualization still pops from the background. The visualization and webpage are colorblind accessible.
+	</p>
+	
+	<h2 style="color:white">Visualization Revelations</h2>
+	<p style="color:white">The visualization gave many insights to the nature of rock climbing in Colorado. Some things that were shown were to be expected. For example,<br>
+	routes around Mount Evans, a massive mountain, were longer in length and were shown to have more pitches than other crags closer to towns. Other revelations were <br>
+	more surprising, such as noticing that some areas had a combination of sport and traditional route development, and others were strictly traditional. A climber with <br>
+	equipment for sport climbing routes would be incredibly disappointed to arrive at a rock climbing area and find out that the area only had traditional routes, which <br>
+	requires entirely different equipment. <br><br>
+	The visualization helped us answer the following questions:
+	<ol>
+		<b><li style="color:white">Do different areas of Colorado feature different route types?</li></b>
+		<i style = "color:white">Yes! For example, Alpine Rock consists of almost entirely traditional routes, while someone would want to visit Buena Vista for sport style routes.</i>
+		<b><li style="color:white">Can we make it easier to avoid unsafe or dangerous routes?</li></b>
+		<i style = "color:white">Yes! We made a filter that makes it possible to adjust the 'safety' of routes, allowing the user to filter out routes deemed unsafe.</i>
+		<b><li style="color:white">Where are the most challenging crags (areas)?</li></b>
+		<i style = "color:white">Independence Pass has the highest number of difficult routes (5.11) compared to other areas.</i>
+	</ol>
+	<p style="color:white">We also discovered some surprising facts. It was interesting to see that many of the routes deemed unsafe by mountain project users (Safety = PG13 or R) were typically <br>
+	traditional routes. It appears that newer climbers may want to begin with sport climbing to build skills prior to advancing to more dangerous traditional climbs.<br>
+	The visualization accomplished the overarching goal of creating an interactive visualization that allows both climbers and non-climbers to explore the nature of rock climbing<br>
+	in the state of Colorado.</p>
+	
+		<h2 style="color:white">References</h2>
+	<p style ="color:white">
+		<ol>
+			<li style="color:white">Mountain Project: https://www.mountainproject.com/route-guide</li>
+			<li style="color:white">Murray, Scott. Interactive Data Visualization for the Web. O'Reilly, 2013.</li>
+			<li style="color:white">Color accessibility: https://davidmathlogic.com/colorblind/#%23B8E2FF-%23F0AAA5</li>
+			<li style="color:white">Sidenar nav design: https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp</li>
+			<li style="color:white">Color accessibility: https://www.toptal.com/designers/colorfilter/</li>
+			<li style="color:white">Radial bar chart: https://www.thedataschool.com.au/jethro-chen/the-radial-bar-chart-in-tableau-tutorial/</li>
+			<li style="color:white">Radial bar chart: https://www.thedataschool.com.au/mipadmin/how-to-create-a-radial-bar-chart-in-tableau/</li>
+			
+		</ol>
+	</p>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	</div>
+</body>
+<html>
+
